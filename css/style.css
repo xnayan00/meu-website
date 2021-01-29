@@ -1,0 +1,56 @@
+body.home-body {
+    background-color: #1e1e1e;
+}
+
+nav {
+    padding: 10px;
+}
+
+.contact-link a{
+    color: white;
+}
+
+.contact-link a:hover{
+    color: white;
+}
+
+.first-section img {
+    width: 550px;
+    margin-top: 30px;
+}
+
+.first-section a {
+    color: white;
+    text-decoration: underline;
+}
+
+.first-section a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar-brand img {
+    width: 20px;
+}
+
+.second-section {
+    background-color: white;
+}
+
+.second-section-title {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.second-section .container {
+    height: 600px;
+}
+
+.custom-card {
+    height: 320px;
+    background-color: white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
