@@ -8,7 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!--Bootstrap 4 CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> 
+    
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 
     <!--HTML Shiv-->
     <!--[if lt IE 9]>
@@ -27,7 +31,7 @@
                 </div>
                 <div class="contact-link ml-auto align-self-center">
                     <span class="text-light mr-4">Fale comigo</span>
-                    <a href="">+55 41 9.9169-2771</a>
+                    <a href="https://api.whatsapp.com/send?phone=5541991692771"><i class="fab fa-whatsapp mr-2"></i>+55 41 9.9169-2771</a>
                 </div>
                 
             </div>
@@ -39,11 +43,11 @@
             <div class="row">
                 <div class="col-md-6 align-self-center">
                     <h1 class="display-4 text-light">Olá! Me chamo Yan e sou Web Developer</h1>
-                    <p id="sobre" class="text-light collapse">Sou desenvolvedor web em constante aprendizado. Possuo sólido conhecimento em design de interfaces e identidade visual.</p>
+                    <p id="sobre" class="text-light collapse">Sou desenvolvedor web em constante aprendizado. Além de habilidade com linguagens e estruturas web, possuo sólido conhecimento em design de interfaces e identidade visual.</p>
                     <a data-toggle="collapse" aria-expanded="false" aria-controls="sobre" href="#sobre">Mais sobre mim</a>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-6 d-none d-md-block">
                     <img src="img/img01.png" alt="">
                 </div>
             </div>
@@ -52,28 +56,39 @@
 
     <section class="second-section"><!--Second-section start-->
         <div class="container">               
-            <h2 class="second-section-title">Título</h2>         
-                <div class="row">
+            <h2 class="second-section-title">Principais Habilidades</h2>         
+            <div class="row">
 
-                    <div class="col-md-4">
-                        <div class="custom-card">
-                            <p>UI design & ID visual</p>
-                        </div>                   
-                    </div>
-                    <div class="col-md-4">
-                        <div class="custom-card">
-                            <p>Tecnologias Web</p>
-                        </div>                   
-                    </div>
-                    <div class="col-md-4">
-                        <div class="custom-card">
-                            <p>Game Design</p>
-                        </div>                   
-                    </div>
-
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fab fa-figma fa-3x"></i>
+                        <h2>UI design</h2>
+                        <div class="custom-hr"></div>
+                        <p>Domínio dos conceitos básicos de design de interfaces como: tipografia, cores, espaçamento e hierarquia visual. <br> Uso da ferramenta Figma para design, wireframe e protótipo. </p>
+                    </div>                   
                 </div>
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fab fa-css3-alt fa-3x"></i>
+                        <h2>Tecnologias Web</h2>
+                        <div class="custom-hr"></div>
+                        <p>Conhecimento em tecnologias web como: HTML5, CSS3, SASS, Bootstrap4 Javascript, notação ES6 e atualmente estudando VueJS.</p>
+                    </div>                   
+                </div>
+                <div class="col-md-4">
+                    <div class="custom-card">
+                        <i class="fas fa-dice-d6 fa-3x"></i>
+                        <h2>Game Design</h2>
+                        <div class="custom-hr"></div>
+                        <p>Habilidades com modelagem 3D, texturização e render em softwares como: Blender 3D e 3DS MAX além de conhecimento prévio em Unreal Engine 4 e seu famoso visual script, Blueprint.</p>
+                    </div>                   
+                </div>
+
+            </div>
         </div>
     </section><!--Second-section end-->
+
+    <footer>Desenvolvido por Yan Mendes - 2021</footer>
 </body>
 <!--Bootstrap 4 JS-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
