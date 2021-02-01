@@ -5,8 +5,6 @@
 ## :page_facing_up: Sobre
 O meu site, __Yan Mendes__ , foi criado com o intuito de ser usado como __portfólio__ para mostrar um pouco do meu trabalho.
 
-___
-
 ## :computer: Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - HTML5
